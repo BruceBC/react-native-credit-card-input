@@ -92,7 +92,8 @@ export default class CCInput extends Component {
               placeholder={placeholder}
               value={value}
               onFocus={this._onFocus}
-              onChangeText={this._onChange} />
+              onChangeText={this._onChange} 
+              blurOnSubmit={true} />
         </View>
       </TouchableOpacity>
     );
